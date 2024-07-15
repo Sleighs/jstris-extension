@@ -1,0 +1,117 @@
+/* Popup */
+
+.popup-container {
+  font-family: 'Georama';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 442px;
+  width: 280px;
+  box-sizing: border-box;
+  padding-top: 6px 0 5px 0;
+  background: #3e4353;;
+  /*fade background horizontally 
+  background: linear-gradient(180deg, #30354f 0%, #30354f 10%, #46474c 20%, #46474c 100%);
+  background: #46474c;
+  background: #4d5264;*/
+  margin: auto;
+  border: 3px solid #84be5d;
+}
+
+
+/* Colors */
+
+.popup-container {
+  color: rgb(255, 255, 255);
+}
+.header-title {
+  color: #84be5d
+}
+.link {
+  color: white;
+}
+.btn-text {
+  color: #2f3033;
+}
+
+
+/* Header */
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.header-title {
+  font-size: 2.15em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 2px 2px rgb(11, 41, 46);
+  user-select: none;
+}
+
+
+/* Links */
+.links-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-right: 5px;
+}
+.link {
+  font-size: 1.1em;
+  margin: 0 auto;
+  text-decoration: none;
+}
+.link:hover,
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+
+.view-rants-btn {
+  background: rgb(255, 255, 255, .8);
+  border: 0;
+  border-radius: 5px;
+  padding: 6px 0;
+  width: 40%;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 8px auto 8px auto; 
+  display: block;
+  cursor: pointer;
+}
+
+.delete-rants-btn {
+  background: rgb(255, 255, 255, .8);
+  border: 0;
+  border-radius: 5px;
+  padding: 6px 0;
+  width: 40%;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 8px auto 8px auto; 
+  display: block;
+  cursor: pointer;
+}
+
+
+/* Rants */
+.rants-btns-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
